@@ -51,7 +51,7 @@ public class introductory extends AppCompatActivity {
                 if(isFirstTime){
                     SharedPreferences.Editor editor=mSharedpref.edit();
 
-                    editor.putBoolean("firsttime",true);
+                    editor.putBoolean("firsttime",false);
                     editor.commit();
                 }
                 else{

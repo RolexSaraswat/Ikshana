@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">IKSHANA</string>
+    <string name="image_chooser">File Chooser</string>
+
 </resources>

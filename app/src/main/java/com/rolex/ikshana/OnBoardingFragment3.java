@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -16,7 +17,7 @@ import org.jetbrains.annotations.NotNull;
 
 
 public class OnBoardingFragment3 extends Fragment {
-    ImageButton lets;
+    Button lets;
     TextView skip;
 
     @Override
@@ -24,6 +25,15 @@ public class OnBoardingFragment3 extends Fragment {
         ViewGroup root =(ViewGroup) inflater.inflate(R.layout.fragment_onboard3 , container, false);
         skip =(TextView) root.findViewById(R.id.skip);
         skip.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),MainActivity.class);
+                startActivity(intent);
+            }
+
+        });
+        lets = root.findViewById(R.id.button);
+        lets.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),MainActivity.class);

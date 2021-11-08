@@ -24,8 +24,7 @@ public class OnBoardingFragment1 extends Fragment {
     @Override
     public View onCreateView(@NonNull @NotNull LayoutInflater inflater, @Nullable @org.jetbrains.annotations.Nullable ViewGroup container, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
         ViewGroup root =(ViewGroup) inflater.inflate(R.layout.fragment_onboard1 , container, false);
-        player = MediaPlayer.create(getActivity(), R.raw.dog);
-        player.start();
+
                  skip =(TextView) root.findViewById(R.id.skip);
                 skip.setOnClickListener(new View.OnClickListener(){
                     @Override
