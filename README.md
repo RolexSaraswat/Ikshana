@@ -16,8 +16,10 @@ ONBOARDING:
 ![image](https://user-images.githubusercontent.com/74906694/140896072-3c59037b-0008-43bf-a35a-e45e0f6e46bf.png)
 ![image](https://user-images.githubusercontent.com/74906694/140896089-a4f9c7f6-90d8-4a8d-836d-1f4a54450c31.png)
 
+
 MAIN APPLICATION:
 ![image](https://user-images.githubusercontent.com/74906694/140895777-a11db2ba-2770-4dfd-917e-e2b2432abef8.png)
+
 
 **WEBSITE VIEW**
 ![image](https://user-images.githubusercontent.com/74906694/140896347-6638a8a5-8ec0-467c-93bb-a281ec44ba95.png)
